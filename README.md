@@ -1,2 +1,2 @@
-# My_Prof_Web_Site
+# My Prof Web Site
 My professional web site.
