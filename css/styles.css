@@ -1,0 +1,143 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+hr {
+  /* border: dotted #eaf6f6 6px; */
+  border: dotted #dbe2ef 6px;
+  border-bottom: none;
+  width: 25%;
+  margin: 25px auto;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 2% 12%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #95e1d3;
+  color: #000;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.footnote-section {
+  font-style: italic;
+  color: #8785a2;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 0.5rem;
+}
+
+.navbar-container {
+  padding: 2% 12% 0 12%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* specific text parts */
+.contact-info {
+  padding: 0 0 1% 0;
+}
+
+.contact-row {
+  font-size: 0.9rem;
+  padding: 0 3%;
+  text-align: center;
+  width: 100%;
+}
+
+.section-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.std-paragraph {
+  font-size: 14px;
+  text-align: left;
+  padding: 0 4%;
+  line-height: 1.5;
+}
+
+/* tweak the images */
+.main-image {
+  width: 100%;
+  height: auto;
+  border: solid #e3fdfd 20px;
+}
+
+.image-med {
+  width: auto;
+  height: 280px;
+}
+
+.image-caption {
+  font-size: 12px;
+}
+
+/* specific section-level settings */
+#title {
+  padding: 0;
+}
+
+.research-images {
+  border: solid #e3fdfd 8px;
+  background-color: "red";
+  padding: 20px 0;
+}
+
+/* teaching formats */
+.teaching-1 {
+  font-weight: bold;
+}
+
+.teaching-2 {
+  font-style: italic;
+}
