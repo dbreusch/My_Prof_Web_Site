@@ -21,72 +21,20 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/c11f3b1a3f.js" crossorigin="anonymous"></script>
 
+  <!-- jQuery and local javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
   <!-- My CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <section class="colored-section" id="title">
-    <div class="container-fluid navbar-container">
+  <!-- Navigation Bar -->
+  <div data-include="nav-bar"></div>
 
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- <a class="navbar-brand" href="">tindog</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teaching.html">Teaching</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pubs-pres.html">Publications etc.</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="grants.html">Grants</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </section>
-
-  <!-- Title -->
-  <section class="colored-section">
-    <div class="container-fluid contact-info">
-      <div class="row">
-        <div class="col-lg">
-          <h1 class="big-heading">David B. Reusch</h1>
-        </div>
-      </div>
-
-      <div class="row row-cols-2 contact-row">
-
-        <div class="col">
-          <p>Affiliate Associate Professor
-            <br>Dept of Earth and Space Sciences
-            <br>University of Washington</p>
-        </div>
-
-        <div class="col">
-          <p>Adjunct Associate Research Professor of Climatology
-            <br>Dept of Earth and Environmental Science
-            <br>New Mexico Institute of Mining and Technology
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
+  <!-- Title Section with name, affiliations -->
+  <div data-include="contact-header"></div>
 
   <section class="white-section">
     <div class="container-fluid">
@@ -256,7 +204,7 @@
       </p>
     </div>
   </section>
-  
+
   <section class="colored-section container-fluid">
     <div class="container-fluid">
       <p class="section-header">
@@ -273,11 +221,7 @@
     </div>
   </section>
 
-  <section class="footer">
-    <div class="container-fluid">
-      <div>© David Reusch 2020</div>
-    </div>
-  </section>
+  <div data-include="footer"></div>
 
 </body>
 
