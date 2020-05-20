@@ -16,6 +16,11 @@ hr {
   margin: 25px auto;
 }
 
+th, td {
+  padding: 10px 20px;
+  text-align: left;
+}
+
 /* Headings */
 .big-heading {
   font-family: 'Montserrat', sans-serif;
@@ -167,4 +172,8 @@ i.fas, i.fab {
 
 .grant-author {
   font-weight: bold;
+}
+
+.table-entry {
+  margin: 0 auto;
 }
