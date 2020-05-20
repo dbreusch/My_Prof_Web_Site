@@ -43,6 +43,7 @@ hr {
 
 .white-section {
   background-color: #fff;
+  /* padding-top: 0; */
 }
 
 .footnote-section {
@@ -110,7 +111,7 @@ hr {
 .main-image {
   width: 100%;
   height: auto;
-  border: solid #e3fdfd 20px;
+  border: solid #e3fdfd 10px;
 }
 
 .image-med {
@@ -140,4 +141,12 @@ hr {
 
 .teaching-2 {
   font-style: italic;
+}
+
+.grant-title {
+  font-style: italic;
+}
+
+.grant-author {
+  font-weight: bold;
 }
