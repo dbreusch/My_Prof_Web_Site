@@ -58,6 +58,24 @@ hr {
   font-size: 14px;
 }
 
+.footer-image {
+  margin: 15px 20px;
+  height: 30px;
+  width: auto;
+}
+
+/* custom styling for all icons */
+i.fas, i.fab {
+  margin: 15px 20px;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.social-icon {
+  /* height: 30px;
+   */
+}
+
 /* Navigation Bar */
 .navbar {
   padding: 0 0 0.5rem;
