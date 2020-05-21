@@ -138,6 +138,10 @@ i.fas, i.fab {
   line-height: 1.5;
 }
 
+.extra-space {
+  white-space: pre-wrap;
+}
+
 /* tweak the images */
 .main-image {
   width: 100%;
@@ -184,6 +188,12 @@ i.fas, i.fab {
 
 .table-entry {
   margin: 0 auto;
+}
+
+.job-table-entry td {
+  margin: 0;
+  padding: 0 5px;
+  line-height: 1rem;
 }
 
 .image-404 {
