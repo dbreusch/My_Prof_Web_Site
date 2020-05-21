@@ -105,7 +105,7 @@ i.fas, i.fab {
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 8px;
 }
 
 .nav-link {
@@ -199,4 +199,17 @@ i.fas, i.fab {
 .image-404 {
   padding: 3% 12%;
   margin: 0 auto;
+}
+
+/* From GoogleDocs Download as HTML -- should rename */
+.c1 {
+  font-style: italic;
+}
+
+.c5 {
+  font-weight: 700;
+}
+
+.c6 {
+  vertical-align: super;
 }
