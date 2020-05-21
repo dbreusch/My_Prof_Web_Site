@@ -40,6 +40,14 @@ th, td {
   padding: 2% 12%;
 }
 
+.footer-padding-1 {
+  padding: 0 12%;
+}
+
+.footer-padding-2 {
+  padding: 0 12% 20px 12%;
+}
+
 /* Sections */
 .colored-section {
   background-color: #95e1d3;
@@ -175,5 +183,10 @@ i.fas, i.fab {
 }
 
 .table-entry {
+  margin: 0 auto;
+}
+
+.image-404 {
+  padding: 3% 12%;
   margin: 0 auto;
 }
