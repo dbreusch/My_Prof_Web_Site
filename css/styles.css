@@ -139,12 +139,13 @@ i.fas, i.fab {
   line-height: 1.5;
 }
 
-/* @media (max-width: 830px) {
+@media (max-width: 830px) {
   .std-paragraph {
     font-size: 20px;
   }
 }
 
+/*
 @media (min-width: 831px) and (max-width: 1200px) {
   .std-paragraph {
     font-size: 16px;
