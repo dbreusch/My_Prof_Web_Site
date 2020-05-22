@@ -40,6 +40,7 @@ th, td {
   padding: 2% 12%;
 }
 
+/* Footer */
 .footer-padding-1 {
   padding: 0 12%;
 }
@@ -137,6 +138,18 @@ i.fas, i.fab {
   padding: 0 4%;
   line-height: 1.5;
 }
+
+/* @media (max-width: 830px) {
+  .std-paragraph {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 831px) and (max-width: 1200px) {
+  .std-paragraph {
+    font-size: 16px;
+  }
+} */
 
 .extra-space {
   white-space: pre-wrap;
