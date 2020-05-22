@@ -143,6 +143,9 @@ i.fas, i.fab {
   .std-paragraph {
     font-size: 20px;
   }
+  .container-fluid {
+    padding: 2% 4%;
+  }
 }
 
 /*
