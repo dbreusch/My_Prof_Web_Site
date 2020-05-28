@@ -1,3 +1,4 @@
+/* Standard Elements */
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -9,11 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-  /* border: dotted #eaf6f6 6px; */
   border: dotted #dbe2ef 6px;
   border-bottom: none;
-  width: 25%;
   margin: 25px auto;
+  width: 25%;
 }
 
 th, td {
@@ -21,35 +21,11 @@ th, td {
   text-align: left;
 }
 
-/* Headings */
-.big-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
+/* Containers and top-level sections*/
 .container-fluid {
   padding: 2% 12%;
 }
 
-/* Footer */
-.footer-padding-1 {
-  padding: 0 12%;
-}
-
-.footer-padding-2 {
-  padding: 0 12% 20px 12%;
-}
-
-/* Sections */
 .colored-section {
   background-color: #95e1d3;
   color: #000;
@@ -57,46 +33,57 @@ th, td {
 
 .white-section {
   background-color: #fff;
-  /* padding-top: 0; */
 }
 
-.footnote-section {
-  font-style: italic;
-  color: #8785a2;
-  font-size: 14px;
+/* Heading, section header, and paragraph stylings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.footer {
-  background-color: #fff;
-  color: #000;
-  font-size: 14px;
+.section-header {
+  font-weight: bold;
+  text-align: left;
 }
 
-.footer-image {
-  margin: 15px 20px;
-  height: 30px;
-  width: auto;
+.std-paragraph {
+  font-size: 1rem;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.5;
+  padding: 0 4%;
+  text-align: left;
 }
 
-/* custom styling for all icons */
-i.fas, i.fab {
-  margin: 15px 20px;
-  font-size: 35px;
-  vertical-align: middle;
+.single-para {
+  margin: 0;
 }
 
-.social-icon {
-  /* height: 30px;
-   */
+.sm-para {
+  font-size: 0.9rem;
 }
 
+.lg-para {
+  font-size: 1.25rem;
+}
+
+.padded-para {
+  padding: 10px 0 0 0;
+}
+/* --- Specific Content Sections --- */
 /* Navigation Bar */
 .navbar {
   padding: 0 0 0.5rem;
 }
 
+.navbar-section {
+  padding: 0;
+}
+
 .navbar-container {
-  padding: 2% 12% 0 12%;
+  padding: 0 12%;
 }
 
 .navbar-brand {
@@ -114,120 +101,112 @@ i.fas, i.fab {
   font-weight: 300;
 }
 
-/* specific text parts */
+/* Contact info */
 .contact-info {
   padding: 0 0 1% 0;
 }
 
 .contact-row {
-  font-size: 0.9rem;
   padding: 0 3%;
   text-align: center;
   width: 100%;
 }
 
-.section-header {
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-align: left;
+/* Page Footer */
+.footer {
+  background-color: #fff;
+  color: #000;
 }
 
-.std-paragraph {
-  font-size: 14px;
-  text-align: left;
-  padding: 0 4%;
-  line-height: 1.5;
-}
-
-@media (max-width: 850px) {
-  .std-paragraph {
-    font-size: 20px;
-    padding: 0 1%;
-  }
-  .container-fluid {
-    padding: 2% 4%;
-  }
-}
-
-/*
-@media (min-width: 831px) and (max-width: 1200px) {
-  .std-paragraph {
-    font-size: 16px;
-  }
-} */
-
-.extra-space {
-  white-space: pre-wrap;
-}
-
-/* tweak the images */
-.main-image {
-  width: 100%;
-  height: auto;
-  border: solid #e3fdfd 10px;
-}
-
-.image-med {
+.footer-image {
+  height: 30px;
+  margin: 15px 10px;
   width: auto;
-  height: 280px;
 }
 
-.image-caption {
-  font-size: 12px;
+.footer-padding-1 {
+  padding: 0 12%;
 }
 
-/* specific section-level settings */
-#title {
-  padding: 0;
+.footer-padding-2 {
+  padding: 0 12% 20px 12%;
 }
 
+/* Footnotes */
+.footnote-section {
+  color: #8785a2;
+  font-style: italic;
+}
+
+/* --- Specific content styling --- */
+/* FontAwesome icons */
+.fas, .fab {
+  font-size: 2.2rem;
+  margin: 15px 10px;
+  vertical-align: middle;
+}
+
+/* Main page image */
+.main-image {
+  border: solid #e3fdfd 10px;
+  height: auto;
+  width: 100%;
+}
+
+/* Research-page images */
 .research-images {
   border: solid #e3fdfd 8px;
-  background-color: "red";
   padding: 20px 0;
 }
 
-/* teaching formats */
-.teaching-1 {
-  font-weight: bold;
+.image-med {
+  height: 280px;
+  width: auto;
 }
 
-.teaching-2 {
-  font-style: italic;
+.image-caption {
+  font-size: 0.75rem;
 }
 
-.grant-title {
-  font-style: italic;
-}
-
-.grant-author {
-  font-weight: bold;
-}
-
+/* Specific section-level settings */
+/* job table styling */
 .table-entry {
   margin: 0 auto;
 }
 
 .job-table-entry td {
   margin: 0;
-  padding: 0 5px;
-  line-height: 1rem;
+  padding: 2px 5px;
+  /* line-height: 1.2rem; */
 }
 
-.image-404 {
-  padding: 3% 12%;
-  margin: 0 auto;
-}
-
-/* From GoogleDocs Download as HTML -- should rename */
-.c1 {
+/* Specific font/text styling */
+.italic-text {
   font-style: italic;
 }
 
-.c5 {
-  font-weight: 700;
+.bold-text {
+  font-weight: bold;
 }
 
-.c6 {
+.super-text {
   vertical-align: super;
+}
+
+/* My 404 page */
+.image-404 {
+  margin: 0 auto;
+  padding: 3% 12%;
+}
+
+/* Device-specific adjustments */
+@media (max-width: 850px) {
+  .std-paragraph {
+    font-size: 1.25rem;
+    padding: 0 1%;
+  }
+
+  .container-fluid {
+    padding: 2% 4%;
+  }
 }
