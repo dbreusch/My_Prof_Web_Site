@@ -16,7 +16,13 @@ hr {
   width: 25%;
 }
 
-th, td {
+th {
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
   padding: 10px 20px;
   text-align: left;
 }
