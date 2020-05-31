@@ -36,8 +36,16 @@ td {
   padding: 2% 12%;
 }
 
+.container-fluid-adj-bot {
+  padding: 2% 12% 0 12%;
+}
+
+.container-fluid-adj-top {
+  padding: 0 12% 2% 12%;
+}
+
 .colored-section {
-  background-color: #95e1d3;
+  background-color: #a6e3e9;
   color: #000;
 }
 
