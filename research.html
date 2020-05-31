@@ -55,15 +55,106 @@
       <h2>
         Research
       </h2>
-      <p class="std-paragraph single-para">
+      <p class="std-paragraph">
         On this page you will find information about what motivates my research,
         my broader research interests, some of my recent projects, a few ideas
         for future work, and my grants history.
       </p>
+      <p class="std-paragraph single-para">
+        Click on the images below to see full-size versions.
+      </p>
     </div>
   </section>
 
-  <section class="container-fluid white-section">
+  <section class="colored-section container" id="research-figures">
+
+    <div id="research-carousel" class="carousel slide" data-interval="false">
+
+      <ol class="carousel-indicators">
+        <li data-target="#research-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#research-carousel" data-slide-to="1"></li>
+        <li data-target="#research-carousel" data-slide-to="2"></li>
+        <li data-target="#research-carousel" data-slide-to="3"></li>
+        <li data-target="#research-carousel" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+
+          <a href="images/Antarctic_melt_1981-2000-full.png">
+            <img class="" src="images/Antarctic_melt_1981-2000.png" alt="Antarctic melt">
+          </a>
+          <p class="image-caption">
+            A climatology of surface melting using passive microwave data from Picard & Fily (2006).
+          </p>
+
+        </div>
+
+        <div class="carousel-item">
+          <a href="images/CMIP5_vs_ERAI_T2m_1981-2000_th-full.png">
+            <img class="" src="images/CMIP5_vs_ERAI_T2m_1981-2000_th.png"
+              alt="CMIP5 vs ERAI">
+          </a>
+          <p class="image-caption">
+            A comparison of selected CMIP5 models versus ERA-Interim Reanalysis, average 2-m
+            temperature, January.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+
+          <a href="images/wrf_agu19melt_tas_meltFrac_future_diff-full.png">
+            <img class="" src="images/wrf_agu19melt_tas_meltFrac_future_diff.png" alt="Greenland melt">
+          </a>
+          <p class="image-caption">
+            Changes in Greenland surface melt percentage under different warming scenarios, relative to recent.
+          </p>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <a href="images/wrf_agu19melt_tas_meltFrac_boxplot-full.png">
+            <img class="" src="images/wrf_agu19melt_tas_meltFrac_boxplot.png" alt="Greenland melt boxplots">
+          </a>
+          <p class="image-caption">
+            Statistical distributions of Greenland surface melting (melt area fraction) under different scenarios.
+          </p>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <a href="images/Ant_sea_ice_SOM-full.png">
+            <img class="" src="images/Ant_sea_ice_SOM.png" alt="Antarctic sea ice trajectories">
+          </a>
+          <p class="image-caption">
+            Generalized month-to-month Antarctic sea ice patterns.  Arrows show the
+            most likely pattern (or patterns when probabilities are nearly the same)
+            for the following month.  Blue arrows show cooling half of the
+            year, red arrows show warming half.
+          </p>
+
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#research-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#research-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- <section class="container-fluid white-section">
     <div class="row research-images">
       <div class="col-lg-6">
         <a href="images/Antarctic_melt_1981-2000.png">
@@ -84,7 +175,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="colored-section container-fluid">
     <div>
@@ -161,170 +252,170 @@
   </section>
 
   <section class="container-fluid colored-section">
-      <div>
-        <p class="section-header lg-para">
-          Recent projects
-        </p>
-      </div>
+    <div>
+      <p class="section-header lg-para">
+        Recent projects
+      </p>
+    </div>
 
-      <div class="std-paragraph">
-        <p>
-          <em>Surface melting on ice sheets</em>
-        </p>
-        <p>
-          My current main research projects are focused on understanding and predicting ice-sheet
-          surface melting through a combination of satellite-based remote sensing and
-          high-resolution
-          regional meteorological modeling. This work started in 2010
-          with
-          a West Antarctic-focused collaboration with colleagues at Penn State University and the
-          National Center for Atmospheric Research (NCAR). In September 2013, the scope expanded to
-          Greenland with a new NSF Arctic Natural Sciences award. Both
-          projects utilize the polar-optimized version of WRF (Polar WRF) and supercomputing
-          resources
-          at NCAR.
+    <div class="std-paragraph">
+      <p>
+        <em>Surface melting on ice sheets</em>
+      </p>
+      <p>
+        My current main research projects are focused on understanding and predicting ice-sheet
+        surface melting through a combination of satellite-based remote sensing and
+        high-resolution
+        regional meteorological modeling. This work started in 2010
+        with
+        a West Antarctic-focused collaboration with colleagues at Penn State University and the
+        National Center for Atmospheric Research (NCAR). In September 2013, the scope expanded to
+        Greenland with a new NSF Arctic Natural Sciences award. Both
+        projects utilize the polar-optimized version of WRF (Polar WRF) and supercomputing
+        resources
+        at NCAR.
 
-          The general approach used in these projects involves two main stages: (1) modern
-          calibration
-          and performance evaluation and (2) future projections. During calibration we relate the
-          meteorological datasets developed from melt-season Polar WRF
-          runs to satellite passive microwave-based surface melt observations to diagnose controls
-          on
-          melting. For this “historical” period, we use the ERA-Interim reanalysis as observational
-          “truth” and boundary conditions for Polar WRF. During
-          performance evaluation, we use selected CMIP5 GCMs as Polar WRF boundary conditions to
-          establish the modern skill of these models versus ERA-Interim and surface weather
-          observations. Future projections use the same CMIP5 GCMs to estimate
-          changes in surface melting using results from our modern calibrations. Through this work
-          we
-          hope to identify controls on melt as seen in meteorological models that can be used to
-          both
-          interpret recent behavior and predict future melt
-          scenarios.
+        The general approach used in these projects involves two main stages: (1) modern
+        calibration
+        and performance evaluation and (2) future projections. During calibration we relate the
+        meteorological datasets developed from melt-season Polar WRF
+        runs to satellite passive microwave-based surface melt observations to diagnose controls
+        on
+        melting. For this “historical” period, we use the ERA-Interim reanalysis as observational
+        “truth” and boundary conditions for Polar WRF. During
+        performance evaluation, we use selected CMIP5 GCMs as Polar WRF boundary conditions to
+        establish the modern skill of these models versus ERA-Interim and surface weather
+        observations. Future projections use the same CMIP5 GCMs to estimate
+        changes in surface melting using results from our modern calibrations. Through this work
+        we
+        hope to identify controls on melt as seen in meteorological models that can be used to
+        both
+        interpret recent behavior and predict future melt
+        scenarios.
 
-          In West Antarctica we have ERA-Interim-based Polar WRF simulations at high-resolution (45
-          km
-          outer grid, 15 km nested grid) continent-wide for the austral melt-season months of
-          December
-          and January for 1988/89 to 2007/08 and are working on
-          the
-          calibration phase. We also have historical (1990-1999), mid- (2050-2059) and late-21st
-          century (2090-2099) runs based on the CCSM4 GCM and are working on adding a second CMIP5
-          GCM. Planned work for Greenland will build on methods developed in
-          Antarctic work but will have numerous additional complexities due to the many geographic
-          and
-          climatic differences between the regions.
-        </p>
+        In West Antarctica we have ERA-Interim-based Polar WRF simulations at high-resolution (45
+        km
+        outer grid, 15 km nested grid) continent-wide for the austral melt-season months of
+        December
+        and January for 1988/89 to 2007/08 and are working on
+        the
+        calibration phase. We also have historical (1990-1999), mid- (2050-2059) and late-21st
+        century (2090-2099) runs based on the CCSM4 GCM and are working on adding a second CMIP5
+        GCM. Planned work for Greenland will build on methods developed in
+        Antarctic work but will have numerous additional complexities due to the many geographic
+        and
+        climatic differences between the regions.
+      </p>
 
-        <p>
-          <em>Self-organizing maps and neural networks</em>
-        </p>
+      <p>
+        <em>Self-organizing maps and neural networks</em>
+      </p>
 
-        <p>
-          A big part of the surface melting projects, and many of my other projects (see below), is
-          my
-          research into the problem of extracting meaning from noisy, complex datasets (not
-          exclusively those in polar settings), including improving and
-          testing
-          the research tools to do this. Many of my tools come from the field of artificial neural
-          networks (ANNs), in particular self-organizing maps (SOMs). The SOM has been an
-          exceptionally valuable method for analyzing variability in numerous
-          projects and is gaining wider usage in the geosciences every year. SOMs provide an
-          unsupervised learning-based approach to the analysis of complex datasets (multivariate,
-          multidimensional, large, and/or incomplete) with support for nonlinear
-          relationships in the data. A SOM analysis summarizes data variability as a user-selected
-          number of distinct, generalized patterns, or modes. These patterns represent a projection
-          from the multidimensional data space into a two-dimensional,
-          spatially organized (by similarity) grid form. Rather than decomposing data into mutually
-          perpendicular, strictly linear principal components, SOMs optimally represent the dataset
-          by
-          a selected number of “icons”, generalized patterns that
-          each
-          capture the variability of a distinct subset of the input data. Each member of the dataset
-          (e.g., a daily temperature field) maps uniquely to a particular pattern, allowing study of
-          preferred patterns, transitions, and more. Techniques and
-          examples of applying this tool in meteorology and climate science were presented in my
-          2010
-          paper in Physics and Chemistry of the Earth, “Nonlinear climatology and paleoclimatology:
-          Capturing patterns of variability and change with
-          self-organizing maps”.
-        </p>
+      <p>
+        A big part of the surface melting projects, and many of my other projects (see below), is
+        my
+        research into the problem of extracting meaning from noisy, complex datasets (not
+        exclusively those in polar settings), including improving and
+        testing
+        the research tools to do this. Many of my tools come from the field of artificial neural
+        networks (ANNs), in particular self-organizing maps (SOMs). The SOM has been an
+        exceptionally valuable method for analyzing variability in numerous
+        projects and is gaining wider usage in the geosciences every year. SOMs provide an
+        unsupervised learning-based approach to the analysis of complex datasets (multivariate,
+        multidimensional, large, and/or incomplete) with support for nonlinear
+        relationships in the data. A SOM analysis summarizes data variability as a user-selected
+        number of distinct, generalized patterns, or modes. These patterns represent a projection
+        from the multidimensional data space into a two-dimensional,
+        spatially organized (by similarity) grid form. Rather than decomposing data into mutually
+        perpendicular, strictly linear principal components, SOMs optimally represent the dataset
+        by
+        a selected number of “icons”, generalized patterns that
+        each
+        capture the variability of a distinct subset of the input data. Each member of the dataset
+        (e.g., a daily temperature field) maps uniquely to a particular pattern, allowing study of
+        preferred patterns, transitions, and more. Techniques and
+        examples of applying this tool in meteorology and climate science were presented in my
+        2010
+        paper in Physics and Chemistry of the Earth, “Nonlinear climatology and paleoclimatology:
+        Capturing patterns of variability and change with
+        self-organizing maps”.
+      </p>
 
-        <p>
-          <em>Other research areas/projects</em>
-        </p>
+      <p>
+        <em>Other research areas/projects</em>
+      </p>
 
-        <p>
-          <strong>North Atlantic Oscillation:</strong> In my 2007 JGR paper, “North Atlantic climate
-          variability from a self-organizing map perspective”, I used SOM-based methods to show that
-          wintertime North Atlantic climate between 1957 and 2002
-          involved not only the
-          well-known trend toward the positive phase of the North Atlantic Oscillation, but also a
-          strengthening of the Azores high not coupled to weakening of the Icelandic Low. Such work
-          is
-          of relevance to Arctic/Greenland studies through links to
-          the
-          Arctic Oscillation and effects on the climate of the Greenland ice sheet. The growing
-          number
-          of long-term meteorological reanalysis datasets (e.g., from NASA, ECMWF and others) offers
-          many new opportunities for further study of these
-          questions.
-        </p>
+      <p>
+        <strong>North Atlantic Oscillation:</strong> In my 2007 JGR paper, “North Atlantic climate
+        variability from a self-organizing map perspective”, I used SOM-based methods to show that
+        wintertime North Atlantic climate between 1957 and 2002
+        involved not only the
+        well-known trend toward the positive phase of the North Atlantic Oscillation, but also a
+        strengthening of the Azores high not coupled to weakening of the Icelandic Low. Such work
+        is
+        of relevance to Arctic/Greenland studies through links to
+        the
+        Arctic Oscillation and effects on the climate of the Greenland ice sheet. The growing
+        number
+        of long-term meteorological reanalysis datasets (e.g., from NASA, ECMWF and others) offers
+        many new opportunities for further study of these
+        questions.
+      </p>
 
-        <p>
-          <strong>Ice cores and climate:</strong> SOMs and ANNs also featured in my 2005 paper in
-          the
-          International Journal of Climatology (“Towards Ice Core-based Synoptic Reconstructions of
-          West Antarctic Climate with Artificial Neural Networks”),
-          where I developed a
-          methodology for improved reconstruction of climate from ice-core data. SOMs first classify
-          reanalysis data into preferred synoptic patterns, to simplify the meteorology. ANNs then
-          upscale from ice-core data to the synoptic patterns, building
-          a
-          synoptic history from associated ice-core data. This work demonstrated that ice-core data
-          can be used to objectively reconstruct synoptic patterns prior to the reanalysis era
-          (pre-1979 in the Antarctic due to relative lack of direct
-          observations in high southern latitudes), and added a useful new technique to the toolbox
-          for reconstructions of Antarctic paleoclimate.
-        </p>
+      <p>
+        <strong>Ice cores and climate:</strong> SOMs and ANNs also featured in my 2005 paper in
+        the
+        International Journal of Climatology (“Towards Ice Core-based Synoptic Reconstructions of
+        West Antarctic Climate with Artificial Neural Networks”),
+        where I developed a
+        methodology for improved reconstruction of climate from ice-core data. SOMs first classify
+        reanalysis data into preferred synoptic patterns, to simplify the meteorology. ANNs then
+        upscale from ice-core data to the synoptic patterns, building
+        a
+        synoptic history from associated ice-core data. This work demonstrated that ice-core data
+        can be used to objectively reconstruct synoptic patterns prior to the reanalysis era
+        (pre-1979 in the Antarctic due to relative lack of direct
+        observations in high southern latitudes), and added a useful new technique to the toolbox
+        for reconstructions of Antarctic paleoclimate.
+      </p>
 
-        <p>
-          <strong>Polar weather station records:</strong> ANNs were used heavily as a downscaling
-          tool
-          in my 2004 JGR paper (“A 15-year West Antarctic climatology from six automatic weather
-          station temperature and pressure records”). With the harsh
-          climate and lack of
-          year-round access, it is common for Antarctic AWS to have missing data, sometimes for
-          extensive periods (e.g., full winter seasons). ANNs provided a way to predict these
-          missing
-          data by downscaling from gridded reanalysis data (ERA-15) and
-          thereby produce complete records better suited to climatology studies. This approach
-          allowed
-          me to extract novel climatological information from six AWS across West Antarctica (e.g.,
-          the abnormally warm winters of 1988 and 1989 at Byrd
-          Station).
-        </p>
+      <p>
+        <strong>Polar weather station records:</strong> ANNs were used heavily as a downscaling
+        tool
+        in my 2004 JGR paper (“A 15-year West Antarctic climatology from six automatic weather
+        station temperature and pressure records”). With the harsh
+        climate and lack of
+        year-round access, it is common for Antarctic AWS to have missing data, sometimes for
+        extensive periods (e.g., full winter seasons). ANNs provided a way to predict these
+        missing
+        data by downscaling from gridded reanalysis data (ERA-15) and
+        thereby produce complete records better suited to climatology studies. This approach
+        allowed
+        me to extract novel climatological information from six AWS across West Antarctica (e.g.,
+        the abnormally warm winters of 1988 and 1989 at Byrd
+        Station).
+      </p>
 
-        <p>
-          <strong>Antarctic sea ice:</strong> I have also applied SOMs and ANNs to Antarctic sea ice
-          analyses and reconstructions. My 2007 Annals of Glaciology paper (see “Antarctic sea ice:
-          a
-          self-organizing map-based perspective”) developed a new
-          climatology of sea
-          ice
-          extent over the annual cycle. ANNs were used in as-yet unpublished work to reconstruct
-          sea-ice edge from ice-core data (see AGU and other presentations).
-        </p>
+      <p>
+        <strong>Antarctic sea ice:</strong> I have also applied SOMs and ANNs to Antarctic sea ice
+        analyses and reconstructions. My 2007 Annals of Glaciology paper (see “Antarctic sea ice:
+        a
+        self-organizing map-based perspective”) developed a new
+        climatology of sea
+        ice
+        extent over the annual cycle. ANNs were used in as-yet unpublished work to reconstruct
+        sea-ice edge from ice-core data (see AGU and other presentations).
+      </p>
 
-        <p>
-          <strong>Greenland:</strong> While recent work has focused on Antarctica, I have also
-          applied
-          these methods to topics in Greenland, such as new ways to develop accumulation histories
-          from ice cores and alternative approaches to reconstructing
-          surface mass
-          balance.
-        </p>
-      </div>
+      <p>
+        <strong>Greenland:</strong> While recent work has focused on Antarctica, I have also
+        applied
+        these methods to topics in Greenland, such as new ways to develop accumulation histories
+        from ice cores and alternative approaches to reconstructing
+        surface mass
+        balance.
+      </p>
+    </div>
   </section>
 
   <section class="white-section container-fluid">
