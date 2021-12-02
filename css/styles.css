@@ -71,7 +71,7 @@ td {
   font-size: 1rem;
   font-family: 'Libre Baskerville', serif;
   line-height: 1.5;
-  padding: 0 4%;
+  padding: 1rem 4% 0 4%;
   text-align: left;
 }
 
@@ -254,4 +254,9 @@ td {
   .container-fluid {
     padding: 2% 4%;
   }
+}
+
+.hanging-indent {
+  padding-left: 1rem ;
+  text-indent: -1rem ;
 }
